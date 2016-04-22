@@ -1,5 +1,9 @@
 #include "c74_msp.h"
 
+#ifdef WIN_VERSION
+#error suck it!
+#endif
+
 using namespace c74::max;
 
 static t_class* this_class = nullptr;
